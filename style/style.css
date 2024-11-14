@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #cf60c9;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.banner img {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 800px;
+}
+
+.banner .quote {
+    text-align: center;
+    font-style: italic;
+    color: #cf60c9;
+    margin-top: 10px;
+}
+
+.content-row {
+    display: flex;
+    justify-content: center; /* Center the content */
+    align-items: flex-start;
+    margin: 20px 0;
+}
+
+.gamer-moments, .stop-of {
+    text-align: center;
+    flex: 1;
+    padding: 0 10px; /* Add padding to control spacing */
+}
+
+.gamer-moments img, .stop-of img {
+    width: 400px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.gamer-moments h2, .stop-of h2 {
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #ab8700;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer a {
+    color: #00aacf;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
